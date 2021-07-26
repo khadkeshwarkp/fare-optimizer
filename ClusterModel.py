@@ -14,7 +14,7 @@ from itertools import tee
 df = pd.read_csv('go_track_trackspoints.csv', sep=',')
 
 #Perform request to use the Google Maps API web service
-API_key = 'AIzaSyAqAUj4vDF2Drt3UWnB4EEu4n3cb9CLhT8'#enter Google Maps API key
+API_key = ''#enter Google Maps API key
 gmaps = googlemaps.Client(key=API_key)
 
 
